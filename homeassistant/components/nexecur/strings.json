@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Please enter the Nexecur account information.",
+        "data": {
+          "email": "[%key:common::config_flow::data::email%]",
+          "password": "[%key:common::config_flow::data::password%]"
+        }
+      }
+    },
+    "progress": {
+      "waiting_for_registration": "You will receive a SMS to register Home Assistant on your Nexecur account to allow it to access your alarm system."
+    },
+    "create_entry": {
+      "default": "[%key:common::config_flow::create_entry::authenticated%]"
+    },
+    "error": {
+      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  }
+}

@@ -401,6 +401,7 @@ FLOWS = {
         "netatmo",
         "netgear",
         "netgear_lte",
+        "nexecur",
         "nexia",
         "nextbus",
         "nextcloud",

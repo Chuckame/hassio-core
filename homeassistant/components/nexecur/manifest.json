@@ -1,0 +1,13 @@
+{
+  "domain": "nexecur",
+  "name": "Nexecur",
+  "codeowners": ["@chuckame"],
+  "config_flow": true,
+  "dependencies": ["application_credentials"],
+  "documentation": "https://www.home-assistant.io/integrations/nexecur",
+  "homekit": {},
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": []
+}
